@@ -24,5 +24,3 @@ This is a fork of <a href="https://github.com/rs/dashplay">rs/dashplay</a>.
 
 `gcloud app deploy web/web.yaml`
 `gcloud app deploy api/api.yaml`
-
-gcloud init
