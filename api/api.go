@@ -19,7 +19,7 @@ func init() {
 			http.Error(w, "Method Not Allowed", http.StatusMethodNotAllowed)
 			return
 		}
-		r, err := http.NewRequest(req.Method, fmt.Sprintf("https://dashplay.firebaseio.com/urls/%s.json", path), req.Body)
+		r, err := http.NewRequest(req.Method, fmt.Sprintf("https://dashplay-ng.firebaseio.com/urls/%s.json", path), req.Body)
 		r.Header = req.Header
 		if err != nil {
 			http.Error(w, err.Error(), http.StatusInternalServerError)

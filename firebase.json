@@ -1,4 +1,15 @@
 {
-    "firebase": "dashplay",
+  "firebase": "dashplay-ng",
+  "rules": "rules.json",
+  "database": {
     "rules": "rules.json"
+  },
+  "hosting": {
+    "public": "web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
 }
